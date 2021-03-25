@@ -23,8 +23,8 @@ public class ConfigClientController
         return "serverPort: "+serverPort+"\t\n\n configInfo: "+configInfo;
     }
 
-    @GetMapping("/config")
-    public String config()
+    @GetMapping("/conf")
+    public String conf()
     {
         return "serverPort: "+serverPort+"\t\n\n configInfo: "+configInfo;
     }
